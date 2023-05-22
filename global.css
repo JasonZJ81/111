@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-l-semibold: Roboto;
+  --body-s-medium: Montserrat;
+  --body-m-regular: "Roboto Condensed";
+
+  /* font sizes */
+  --body-l-semibold-size: 1rem;
+  --body-m-semibold-size: 0.88rem;
+  --body-s-semibold-size: 0.75rem;
+  --body-xl-semibold-size: 1.13rem;
+  --heading-xs-bold-size: 1.25rem;
+  --heading-l-semibold-size: 2rem;
+
+  /* Colors */
+  --noble-black-600: #1a1d21;
+  --noble-black-700: #131619;
+  --day-blue-900: #0c1132;
+  --noble-black-800: #0d0f10;
+  --glass-stroke: rgba(255, 255, 255, 0.08);
+  --noble-black-300: #9b9c9e;
+  --noble-black-100: #e8e9e9;
+  --noble-black-500: #363a3d;
+  --stem-green-500: #b6f09c;
+  --noble-black-0: #fff;
+  --noble-black-400: #686b6e;
+  --noble-black-200: #cdcecf;
+  --happy-orange-600: #e26f20;
+
+  /* Gaps */
+  --gap-xs: 0.75rem;
+  --gap-5xl: 1.5rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-9xs: 0.25rem;
+  --gap-11xs: 0.13rem;
+  --gap-7xs: 0.38rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-sm: 0.88rem;
+  --padding-9xs: 0.25rem;
+
+  /* border radiuses */
+  --br-5xl: 24px;
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-9xs: 4px;
+  --br-xl: 20px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-10xs: 3px;
+
+  /* Effects */
+  --shadow-small: 0px 1px 2px -1px rgba(0, 0, 0, 0.05),
+    0px 1px 3px rgba(0, 0, 0, 0.05);
+  --outline-heisenberg-blue: 0px 0px 0px 4px rgba(132, 220, 245, 0.24);
+}
